@@ -1,0 +1,26 @@
+
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Language Selection</title>
+</head>
+<body>
+  <h1>Please select your preferred language:</h1>
+  <button onclick="redirectToForm('english')">English</button>
+  <button onclick="redirectToForm('amharic')">Amharic</button>
+
+  <script>
+    function redirectToForm(language) {
+      if (language === 'english') {
+        window.location.href = 'URL_OF_ENGLISH_FORM';
+      } else if (language === 'amharic') {
+        window.location.href = 'URL_OF_AMHARIC_FORM';
+      }
+    }
+  </script>
+</body>
+</html>
+```
+
